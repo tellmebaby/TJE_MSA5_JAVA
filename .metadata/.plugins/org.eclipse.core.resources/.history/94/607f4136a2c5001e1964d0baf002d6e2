@@ -1,0 +1,42 @@
+package _1000;
+
+import java.util.Iterator;
+
+public class _1357 {
+
+	public static void main(String[] args) {
+		
+		int ln = 2;
+		int check1 = 0;
+		int check2 = 2;
+		int check3 = 0;
+		
+		// 길이 2 줌
+		// 이제 2를 받아서 늘어나는 조건 1로 간다 check1 = 0 일때 늘어남
+
+		if(check1 == 0) {
+			// 늘어나는곳
+			for (int i = 0; i < (ln+ln)-1; i++) {
+				System.out.print("반복문 돌고있음");
+				if(check2 == ln) {
+					System.out.print("반복문-1 돌고있음");
+					check3 += 1;
+					for (int j = 0; j < check3; j++) {
+						System.out.print("1번돌았어요");
+						check3 += 1;
+					}
+				}else {
+					check3 -= 1;
+					for (int j = 0; j < check3; j++) {
+						System.out.print("2번돌았어요");
+						check3 -= 1;
+					}
+				}
+				System.out.println();
+			}
+		}else if (check1 == ln){
+			System.out.println(ln+1 +"역전반환점" + check1);
+		}
+	}
+		
+}

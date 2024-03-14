@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Scene1.fxml&apos; to &apos;Scene1.fxml&apos;&#x0D;&#x0A;- Original project: &apos;JavaFX_SwitchScene&apos;&#x0D;&#x0A;- Destination element: &apos;Scene1.fxml&apos;&#x0D;&#x0A;- Original element: &apos;Scene1.fxml&apos;" description="Copy file" element1="src/application/Scene1.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1709012280897" target="/JavaFX_SwitchScene/src/application/Scene1.fxml" units="0" version="1.0"/>
+</session>

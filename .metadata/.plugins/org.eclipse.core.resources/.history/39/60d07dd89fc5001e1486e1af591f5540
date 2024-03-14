@@ -1,0 +1,36 @@
+package _1000;
+
+import java.util.Iterator;
+
+public class _1357 {
+
+	public static void main(String[] args) {
+		
+		int ln = 2;
+		int check = 0;
+		int lnCheck = 1;
+		
+		if(check == 0) {
+			System.out.println("t1");
+			for (int i = 0; i <= 2; i++) {
+				System.out.println("t1-1");
+				for (int j = 0; j < lnCheck; j++) {
+					System.out.println("t1-2");
+					System.out.println("*");
+				}
+				lnCheck += 1;
+			}
+		}else {
+			System.out.println("t2");
+			for (int i = 2; i >= 0; i--) {
+				System.out.println("t2-1");
+				for (int j = 0; j < lnCheck; j++) {
+					System.out.println("t2-2");
+					System.out.println("*");
+				}
+				lnCheck -= 1;
+			}
+		}
+		
+	}
+}
